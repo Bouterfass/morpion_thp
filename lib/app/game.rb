@@ -20,7 +20,7 @@ class Game
             tour += 1
         end
 
-        if tour == 9
+        if tour == 9 && @board.victory == false
             puts "EGALITE !"
           elsif tour%2 == 0
             puts @player2.name + " A GAGNE!"
